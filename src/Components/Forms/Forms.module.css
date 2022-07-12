@@ -1,0 +1,15 @@
+input{
+    margin-left: 1%;
+    padding-left: 1%;
+    width: 120px;
+    height: 40px;
+}
+button{
+    margin-left: 8%;
+    width: 120px;
+    height: 40px;
+}
+.header{
+    margin-left: 5%;
+    margin-bottom: 4%;
+}
