@@ -1,0 +1,12 @@
+
+.topcontent {
+    width: 100%;
+    padding: 30px;
+    background-color: #FFFFFF;
+    font-family: var(--gilroy-bold);
+    font-size: 1.3rem;
+    }
+  
+    .topcontent h2 {
+        margin-left: 20px;
+    }

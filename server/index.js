@@ -6,30 +6,7 @@ const {GraphQLObjectType, GraphQLSchema, GraphQLInt, GraphQLString, GraphQLList}
 const {graphqlHTTP} = require('express-graphql');
 var cors = require('cors')
 
-// const schema = require('D:\graphql\server\Schemas\index');
-// const schema = require [ 'D:\\graphql\\server\\index.js' ];
 
-var dates = [
-    {
-        id: "1", date: "11-07-2022", 
-        id: "2", date: "11-07-2022",
-        id: "3", date: "11-07-2022",
-        id: "4", date: "11-07-2022",
-        id: "5", date: "11-07-2022",
-    }
-]
-// const RootQuery = new GraphQLObjectType({
-//     name: "RootQueryType",
-//     fields: {
-//         getUser: {
-//             type: new GraphQLList(UserType),
-//             args: {id:{ type: GraphQLString }},
-//             resolve(parent, args){
-//                 return useData;
-//             },
-//     },
-//   },
-// });
 const DateType = new GraphQLObjectType({
     name: "Date",
     fields: () => ({
@@ -62,13 +39,7 @@ const RootQuery = new GraphQLObjectType({
                 return useData;
             },
     },
-    // date:{
-    //     type: DateType,
-    //     args {id: {type: GraphQLInt}}
-    //     resolve(parent, args){
-    //         return (dates.{id: args.id});
-    //     }
-    // }
+
   },
 });
 

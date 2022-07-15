@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url("./Components/Assets/Gilroy/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: url("./Components/Assets/Gilroy/Gilroy-Black.ttf");
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url("./Components/Assets/Gilroy/Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url("./Components/Assets/Gilroy/Gilroy-Medium.ttf");
+}
+
+:root {
+  --gilroy-bold: gilroy-bold;
+  --gilroy-black: gilroy-black;
+  --gilroy-regular: gilroy-regular;
+  --gilroy-medium: gilroy-medium;
+}
